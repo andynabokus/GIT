@@ -6,4 +6,10 @@ git diff - difference between files in the working directory and staging area(fi
 git commit -m "message" - Add file in the local repositiry from staging area, add message in the commit for info what was changed.
 git diff HEAD - Difference between files in the working directoy and repo.
 git commit --amend -m "New and correct message" - change last commit message.Amend only works with the very last commit.
-Amend rewrites the commit history in your repository.Therefore, use "amend" whenever you want to change / edit your very last and unpushed commit. 
+Amend rewrites the commit history in your repository.Therefore, use "amend" whenever you want to change / edit your very last and unpushed commit.
+git  clone repo_url - clone git repositary
+git remote - show remote repo
+git remote add origin https://github.com/andynabokus/GIT.git - connect local repositary with remote repositary
+
+
+ 
