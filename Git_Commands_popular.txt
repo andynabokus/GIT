@@ -13,9 +13,9 @@ git remote add origin https://github.com/andynabokus/GIT.git - connect local rep
 git log - show history of commits
 git log file_name - log of specified file
 git checkout <branch> - switch to the specified branch on the local repo
-git log origin/master...HEAD - show commits between remote repo head and local repo head
+git log origin/master...HEAD - show commits between remote repo head and local repo head. Commits which were not added in the remote repo.
 origin/master (points to tip of master branch on remote) HEAD(points to tip of current local branch)
-
+git push origin master - write files on the remote repo origin in the branch master. 
 
 
  
