@@ -18,6 +18,8 @@ origin/master (points to tip of master branch on remote) HEAD(points to tip of c
 git push origin master - write files on the remote repo origin in the branch master.
 git log --reverse - print history in the reverse order.
 git checkout commit_hash - rollback files to the state when commit was done  
+git checkout master - fix HEAD detached at 5ec0518
+
 
 
  
