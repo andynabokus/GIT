@@ -10,6 +10,12 @@ Amend rewrites the commit history in your repository.Therefore, use "amend" when
 git  clone repo_url - clone git repositary
 git remote - show remote repo
 git remote add origin https://github.com/andynabokus/GIT.git - connect local repositary with remote repositary
+git log - show history of commits
+git log file_name - log of specified file
+git checkout <branch> - switch to the specified branch on the local repo
+git log origin/master...HEAD - show commits between remote repo head and local repo head
+origin/master (points to tip of master branch on remote) HEAD(points to tip of current local branch)
+
 
 
  
