@@ -1,0 +1,6 @@
+git init - create local repository
+git status - show info about untacked files in the repo
+git add . - add all files in the stage area
+git add file_name - add specified file in the staging area
+git dif - difference between files in the working directory and staging area(file has changed, but commant git add was not done)
+git commit -m "message" - Add file in the local repositiry from staging area, add message in the commit for info what was changed.
