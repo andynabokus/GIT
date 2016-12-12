@@ -4,4 +4,6 @@ git add . - add all files in the stage area
 git add file_name - add specified file in the staging area
 git diff - difference between files in the working directory and staging area(file has changed, but commant git add was not done)
 git commit -m "message" - Add file in the local repositiry from staging area, add message in the commit for info what was changed.
-git diff HEAD - Difference between files in the working directoy and repo 
+git diff HEAD - Difference between files in the working directoy and repo.
+git commit --amend -m "New and correct message" - change last commit message.Amend only works with the very last commit.
+Amend rewrites the commit history in your repository.Therefore, use "amend" whenever you want to change / edit your very last and unpushed commit. 
